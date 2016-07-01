@@ -1,0 +1,57 @@
+#wrapper{
+  width: 95%;
+  height: 50px;
+  margin: 0px auto;
+  background-color: lightcyan;
+  padding: 5px 5px 10px;
+  text-align: center;
+  outline: solid 2px green;
+}
+
+#wrapper img{
+  max-width: 90px;
+  position: fixed;
+  left: 10%;
+  border: 3px solid #fff;
+  border-radius: 100%;
+}
+
+body{
+    background-image: url("bgpic.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: 14px;
+}
+
+
+#menu{
+  background-color: lightcyan;
+  padding: 5 5 5px 0;
+  text-align: right;
+  color: indigo;
+}
+
+#nav li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 0 0 5px;
+  font-size: 0.9em;
+}
+
+#container {
+  max-width: 450px;
+  margin: 300px auto 0;
+  background-color: #fff;
+}
+
+section {
+  padding: 15px 20px;
+}
+
+section h3 {
+  padding: 10px 0 20px 0;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
